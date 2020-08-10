@@ -1,0 +1,8 @@
+<h1>The Movie List goes here....</h1>
+<!--Let us print the title of the movies here-->
+<% results["Search"].forEach(function(movie){ %>
+    <li><%= movie["Title"] %></li>  
+    <% });%>
+
+<a href="/"><button>Search Again</button></a>
+  
